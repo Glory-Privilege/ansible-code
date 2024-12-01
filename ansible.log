@@ -1,0 +1,623 @@
+2024-11-07 14:02:40,895 p=4921 u=ec2-user n=ansible | 172.31.45.155 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3.7"
+    },
+    "append": false,
+    "changed": false,
+    "comment": "serge",
+    "group": 1001,
+    "home": "/home/john",
+    "move_home": false,
+    "name": "john",
+    "shell": "/bin/bash",
+    "state": "present",
+    "uid": 1001
+}
+2024-11-07 14:18:10,684 p=5575 u=ec2-user n=ansible | 172.31.45.155 | CHANGED | rc=0 >>
+ 14:18:10 up  2:18,  2 users,  load average: 0.00, 0.00, 0.00
+
+2024-11-07 15:22:15,738 p=6201 u=ec2-user n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: Expecting value: line 1 column 1 (char 0)
+
+Syntax Error while loading YAML.
+  mapping values are not allowed in this context
+
+The error appears to be in '/home/ec2-user/ansible-dev/play1.yml': line 3, column 8, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+-hosts: all
+ become: yes
+       ^ here
+
+2024-11-07 15:27:06,278 p=6632 u=ec2-user n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: Expecting value: line 1 column 1 (char 0)
+
+Syntax Error while loading YAML.
+  mapping values are not allowed in this context
+
+The error appears to be in '/home/ec2-user/ansible-dev/play1.yml': line 4, column 7, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+ become:yes
+ tasks:
+      ^ here
+
+2024-11-07 15:31:35,703 p=6743 u=ec2-user n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: Expecting value: line 1 column 1 (char 0)
+
+Syntax Error while loading YAML.
+  mapping values are not allowed in this context
+
+The error appears to be in '/home/ec2-user/ansible-dev/play1.yml': line 3, column 8, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+-hosts: all
+ become: yes
+       ^ here
+
+2024-11-07 15:32:57,052 p=6899 u=ec2-user n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: Expecting value: line 1 column 1 (char 0)
+
+Syntax Error while loading YAML.
+  did not find expected '-' indicator
+
+The error appears to be in '/home/ec2-user/ansible-dev/play1.yml': line 4, column 2, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+  become: yes
+ tasks:
+ ^ here
+
+2024-11-07 15:33:18,037 p=6931 u=ec2-user n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: Expecting value: line 1 column 1 (char 0)
+
+Syntax Error while loading YAML.
+  mapping values are not allowed in this context
+
+The error appears to be in '/home/ec2-user/ansible-dev/play1.yml': line 11, column 14, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+      user:Serge
+      comment: Serge smith
+             ^ here
+
+2024-11-07 15:35:02,956 p=7149 u=ec2-user n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: Expecting value: line 1 column 1 (char 0)
+
+Syntax Error while loading YAML.
+  mapping values are not allowed in this context
+
+The error appears to be in '/home/ec2-user/ansible-dev/play1.yml': line 10, column 11, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+  - name: create user Serge
+      user: Serge
+          ^ here
+
+2024-11-07 15:37:24,146 p=7318 u=ec2-user n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: Expecting value: line 1 column 1 (char 0)
+
+Syntax Error while loading YAML.
+  mapping values are not allowed in this context
+
+The error appears to be in '/home/ec2-user/ansible-dev/play1.yml': line 10, column 12, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+  - name: create user Serge
+       user: Serge
+           ^ here
+
+2024-11-07 15:40:33,223 p=7359 u=ec2-user n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: Expecting value: line 1 column 1 (char 0)
+
+Syntax Error while loading YAML.
+  mapping values are not allowed in this context
+
+The error appears to be in '/home/ec2-user/ansible-dev/play1.yml': line 10, column 11, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+  - name: create user Serge
+      user: Serge
+          ^ here
+
+2024-11-07 15:42:59,716 p=7393 u=ec2-user n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: Expecting value: line 1 column 1 (char 0)
+
+Syntax Error while loading YAML.
+  mapping values are not allowed in this context
+
+The error appears to be in '/home/ec2-user/ansible-dev/play1.yml': line 13, column 16, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+        comment: Serge smith
+               ^ here
+
+2024-11-07 15:44:10,713 p=7429 u=ec2-user n=ansible | [WARNING]: While constructing a mapping from /home/ec2-user/ansible-dev/play1.yml, line 9, column 6,
+found a duplicate dict key (name). Using last defined value only.
+
+2024-11-07 15:44:10,757 p=7429 u=ec2-user n=ansible | ERROR! conflicting action statements: user, comment
+
+The error appears to be in '/home/ec2-user/ansible-dev/play1.yml': line 9, column 6, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+       state: present
+  -  name: create user Serge
+     ^ here
+
+2024-11-07 15:45:00,755 p=7462 u=ec2-user n=ansible | [WARNING]: While constructing a mapping from /home/ec2-user/ansible-dev/play1.yml, line 9, column 6,
+found a duplicate dict key (name). Using last defined value only.
+
+2024-11-07 15:45:00,755 p=7462 u=ec2-user n=ansible | [WARNING]: While constructing a mapping from /home/ec2-user/ansible-dev/play1.yml, line 14, column 5,
+found a duplicate dict key (name). Using last defined value only.
+
+2024-11-07 15:45:00,819 p=7462 u=ec2-user n=ansible | ERROR! conflicting action statements: user, comment
+
+The error appears to be in '/home/ec2-user/ansible-dev/play1.yml': line 9, column 6, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+       state: present
+  -  name: create user Serge
+     ^ here
+
+2024-11-07 15:45:53,909 p=7497 u=ec2-user n=ansible | [WARNING]: While constructing a mapping from /home/ec2-user/ansible-dev/play1.yml, line 9, column 6,
+found a duplicate dict key (name). Using last defined value only.
+
+2024-11-07 15:45:53,909 p=7497 u=ec2-user n=ansible | [WARNING]: While constructing a mapping from /home/ec2-user/ansible-dev/play1.yml, line 14, column 5,
+found a duplicate dict key (name). Using last defined value only.
+
+2024-11-07 15:45:53,946 p=7497 u=ec2-user n=ansible | ERROR! conflicting action statements: user, comment
+
+The error appears to be in '/home/ec2-user/ansible-dev/play1.yml': line 9, column 6, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+      state: present
+  -  name: create user Serge
+     ^ here
+
+2024-11-07 15:47:06,413 p=7532 u=ec2-user n=ansible | [WARNING]: While constructing a mapping from /home/ec2-user/ansible-dev/play1.yml, line 9, column 6,
+found a duplicate dict key (name). Using last defined value only.
+
+2024-11-07 15:47:06,413 p=7532 u=ec2-user n=ansible | [WARNING]: While constructing a mapping from /home/ec2-user/ansible-dev/play1.yml, line 14, column 5,
+found a duplicate dict key (name). Using last defined value only.
+
+2024-11-07 15:47:06,461 p=7532 u=ec2-user n=ansible | ERROR! conflicting action statements: user, comment
+
+The error appears to be in '/home/ec2-user/ansible-dev/play1.yml': line 9, column 6, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+     state: present
+  -  name: create user Serge
+     ^ here
+
+2024-11-07 15:50:46,216 p=7573 u=ec2-user n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: Expecting value: line 1 column 1 (char 0)
+
+Syntax Error while loading YAML.
+  mapping values are not allowed in this context
+
+The error appears to be in '/home/ec2-user/ansible-dev/play1.yml': line 14, column 11, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+    comment: Serge smith
+     shell: /bin/bash
+          ^ here
+
+2024-11-07 15:51:05,482 p=7606 u=ec2-user n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: Expecting value: line 1 column 1 (char 0)
+
+Syntax Error while loading YAML.
+  mapping values are not allowed in this context
+
+The error appears to be in '/home/ec2-user/ansible-dev/play1.yml': line 14, column 12, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+    comment: Serge smith
+      shell: /bin/bash
+           ^ here
+
+2024-11-07 15:52:46,343 p=7641 u=ec2-user n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: Expecting value: line 1 column 1 (char 0)
+
+Syntax Error while loading YAML.
+  did not find expected key
+
+The error appears to be in '/home/ec2-user/ansible-dev/play1.yml': line 15, column 3, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+    shell: /bin/bash
+  - name: create group
+  ^ here
+
+2024-11-07 15:54:40,429 p=7674 u=ec2-user n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: Expecting value: line 1 column 1 (char 0)
+
+Syntax Error while loading YAML.
+  did not find expected key
+
+The error appears to be in '/home/ec2-user/ansible-dev/play1.yml': line 15, column 3, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+    shell: /bin/bash
+  - name: create group
+  ^ here
+
+2024-11-07 15:55:27,119 p=7708 u=ec2-user n=ansible | ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: Expecting value: line 1 column 1 (char 0)
+
+Syntax Error while loading YAML.
+  mapping values are not allowed in this context
+
+The error appears to be in '/home/ec2-user/ansible-dev/play1.yml': line 12, column 11, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+    name: Serge
+     state: present
+          ^ here
+
+2024-11-07 16:22:32,111 p=8021 u=ec2-user n=ansible | PLAY [all] *******************************************************************************************
+2024-11-07 16:22:32,124 p=8021 u=ec2-user n=ansible | TASK [Gathering Facts] *******************************************************************************
+2024-11-07 16:22:34,999 p=8021 u=ec2-user n=ansible | ok: [172.31.21.47]
+2024-11-07 16:22:36,259 p=8021 u=ec2-user n=ansible | ok: [172.31.45.155]
+2024-11-07 16:22:36,280 p=8021 u=ec2-user n=ansible | TASK [Install nginx] *********************************************************************************
+2024-11-07 16:22:36,323 p=8021 u=ec2-user n=ansible | skipping: [172.31.45.155]
+2024-11-07 16:23:02,111 p=8021 u=ec2-user n=ansible | changed: [172.31.21.47]
+2024-11-07 16:23:02,135 p=8021 u=ec2-user n=ansible | TASK [Install nginx on redhat family] ****************************************************************
+2024-11-07 16:23:02,247 p=8021 u=ec2-user n=ansible | skipping: [172.31.21.47]
+2024-11-07 16:23:05,749 p=8021 u=ec2-user n=ansible | fatal: [172.31.45.155]: FAILED! => {"changed": false, "msg": "No package matching 'nginx' found available, installed or updated", "rc": 126, "results": ["No package matching 'nginx' found available, installed or updated"]}
+2024-11-07 16:23:05,763 p=8021 u=ec2-user n=ansible | TASK [Create user serge] *****************************************************************************
+2024-11-07 16:23:06,619 p=8021 u=ec2-user n=ansible | changed: [172.31.21.47]
+2024-11-07 16:23:06,638 p=8021 u=ec2-user n=ansible | TASK [create group] **********************************************************************************
+2024-11-07 16:23:07,343 p=8021 u=ec2-user n=ansible | changed: [172.31.21.47]
+2024-11-07 16:23:07,353 p=8021 u=ec2-user n=ansible | TASK [create index file] *****************************************************************************
+2024-11-07 16:23:07,922 p=8021 u=ec2-user n=ansible | changed: [172.31.21.47]
+2024-11-07 16:23:07,936 p=8021 u=ec2-user n=ansible | TASK [Create directory] ******************************************************************************
+2024-11-07 16:23:08,538 p=8021 u=ec2-user n=ansible | changed: [172.31.21.47]
+2024-11-07 16:23:08,559 p=8021 u=ec2-user n=ansible | PLAY RECAP *******************************************************************************************
+2024-11-07 16:23:08,559 p=8021 u=ec2-user n=ansible | 172.31.21.47               : ok=6    changed=5    unreachable=0    failed=0    skipped=1    rescued=0    ignored=0   
+2024-11-07 16:23:08,559 p=8021 u=ec2-user n=ansible | 172.31.45.155              : ok=1    changed=0    unreachable=0    failed=1    skipped=1    rescued=0    ignored=0   
+2024-11-07 16:58:42,148 p=8927 u=ec2-user n=ansible | PLAY [all] *******************************************************************************************************************************************
+2024-11-07 16:58:42,158 p=8927 u=ec2-user n=ansible | TASK [Gathering Facts] *******************************************************************************************************************************
+2024-11-07 16:58:44,014 p=8927 u=ec2-user n=ansible | ok: [172.31.45.155]
+2024-11-07 16:58:44,108 p=8927 u=ec2-user n=ansible | ok: [172.31.21.47]
+2024-11-07 16:58:44,123 p=8927 u=ec2-user n=ansible | TASK [Install nginx] *********************************************************************************************************************************
+2024-11-07 16:58:44,152 p=8927 u=ec2-user n=ansible | skipping: [172.31.45.155]
+2024-11-07 16:58:46,569 p=8927 u=ec2-user n=ansible | fatal: [172.31.21.47]: FAILED! => {"changed": false, "msg": "No package matching 'nginx:1.14.2' is available"}
+2024-11-07 16:58:46,578 p=8927 u=ec2-user n=ansible | TASK [Install nginx on redhat family] ****************************************************************************************************************
+2024-11-07 16:58:48,620 p=8927 u=ec2-user n=ansible | fatal: [172.31.45.155]: FAILED! => {"changed": false, "msg": "No package matching 'nginx' found available, installed or updated", "rc": 126, "results": ["No package matching 'nginx' found available, installed or updated"]}
+2024-11-07 16:58:48,625 p=8927 u=ec2-user n=ansible | PLAY RECAP *******************************************************************************************************************************************
+2024-11-07 16:58:48,625 p=8927 u=ec2-user n=ansible | 172.31.21.47               : ok=1    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2024-11-07 16:58:48,626 p=8927 u=ec2-user n=ansible | 172.31.45.155              : ok=1    changed=0    unreachable=0    failed=1    skipped=1    rescued=0    ignored=0   
+2024-11-07 17:01:38,078 p=9156 u=ec2-user n=ansible | PLAY [all] *******************************************************************************************************************************************
+2024-11-07 17:01:38,097 p=9156 u=ec2-user n=ansible | TASK [Gathering Facts] *******************************************************************************************************************************
+2024-11-07 17:01:39,755 p=9156 u=ec2-user n=ansible | ok: [172.31.45.155]
+2024-11-07 17:01:40,813 p=9156 u=ec2-user n=ansible | ok: [172.31.21.47]
+2024-11-07 17:01:40,831 p=9156 u=ec2-user n=ansible | TASK [Install nginx] *********************************************************************************************************************************
+2024-11-07 17:01:40,863 p=9156 u=ec2-user n=ansible | skipping: [172.31.45.155]
+2024-11-07 17:01:43,613 p=9156 u=ec2-user n=ansible | ok: [172.31.21.47]
+2024-11-07 17:01:43,625 p=9156 u=ec2-user n=ansible | TASK [Install nginx on redhat family] ****************************************************************************************************************
+2024-11-07 17:01:43,677 p=9156 u=ec2-user n=ansible | skipping: [172.31.21.47]
+2024-11-07 17:01:45,429 p=9156 u=ec2-user n=ansible | fatal: [172.31.45.155]: FAILED! => {"changed": false, "msg": "No package matching 'nginx' found available, installed or updated", "rc": 126, "results": ["No package matching 'nginx' found available, installed or updated"]}
+2024-11-07 17:01:45,440 p=9156 u=ec2-user n=ansible | TASK [Create user serge] *****************************************************************************************************************************
+2024-11-07 17:01:46,114 p=9156 u=ec2-user n=ansible | ok: [172.31.21.47]
+2024-11-07 17:01:46,124 p=9156 u=ec2-user n=ansible | TASK [create group] **********************************************************************************************************************************
+2024-11-07 17:01:46,692 p=9156 u=ec2-user n=ansible | ok: [172.31.21.47]
+2024-11-07 17:01:46,720 p=9156 u=ec2-user n=ansible | TASK [create index file] *****************************************************************************************************************************
+2024-11-07 17:01:47,354 p=9156 u=ec2-user n=ansible | changed: [172.31.21.47]
+2024-11-07 17:01:47,367 p=9156 u=ec2-user n=ansible | TASK [Create directory] ******************************************************************************************************************************
+2024-11-07 17:01:47,916 p=9156 u=ec2-user n=ansible | fatal: [172.31.21.47]: FAILED! => {"changed": true, "cmd": ["mkdir", "/tmp/os"], "delta": "0:00:00.003130", "end": "2024-11-07 17:01:47.869681", "msg": "non-zero return code", "rc": 1, "start": "2024-11-07 17:01:47.866551", "stderr": "mkdir: cannot create directory ‘/tmp/os’: File exists", "stderr_lines": ["mkdir: cannot create directory ‘/tmp/os’: File exists"], "stdout": "", "stdout_lines": []}
+2024-11-07 17:01:47,919 p=9156 u=ec2-user n=ansible | PLAY RECAP *******************************************************************************************************************************************
+2024-11-07 17:01:47,919 p=9156 u=ec2-user n=ansible | 172.31.21.47               : ok=5    changed=1    unreachable=0    failed=1    skipped=1    rescued=0    ignored=0   
+2024-11-07 17:01:47,920 p=9156 u=ec2-user n=ansible | 172.31.45.155              : ok=1    changed=0    unreachable=0    failed=1    skipped=1    rescued=0    ignored=0   
+2024-11-07 17:02:48,457 p=9382 u=ec2-user n=ansible | 172.31.45.155 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3.7"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2024-11-07 17:02:48,707 p=9382 u=ec2-user n=ansible | 172.31.21.47 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python3"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2024-11-07 17:04:06,691 p=9569 u=ec2-user n=ansible | PLAY [all] *******************************************************************************************************************************************
+2024-11-07 17:04:06,703 p=9569 u=ec2-user n=ansible | TASK [Gathering Facts] *******************************************************************************************************************************
+2024-11-07 17:04:08,512 p=9569 u=ec2-user n=ansible | ok: [172.31.21.47]
+2024-11-07 17:04:08,708 p=9569 u=ec2-user n=ansible | ok: [172.31.45.155]
+2024-11-07 17:04:08,723 p=9569 u=ec2-user n=ansible | TASK [Install nginx] *********************************************************************************************************************************
+2024-11-07 17:04:08,747 p=9569 u=ec2-user n=ansible | skipping: [172.31.45.155]
+2024-11-07 17:04:13,719 p=9569 u=ec2-user n=ansible | changed: [172.31.21.47]
+2024-11-07 17:04:13,730 p=9569 u=ec2-user n=ansible | TASK [Install nginx on redhat family] ****************************************************************************************************************
+2024-11-07 17:04:13,789 p=9569 u=ec2-user n=ansible | skipping: [172.31.21.47]
+2024-11-07 17:04:15,537 p=9569 u=ec2-user n=ansible | ok: [172.31.45.155]
+2024-11-07 17:04:15,544 p=9569 u=ec2-user n=ansible | TASK [Create user serge] *****************************************************************************************************************************
+2024-11-07 17:04:16,278 p=9569 u=ec2-user n=ansible | ok: [172.31.21.47]
+2024-11-07 17:04:16,440 p=9569 u=ec2-user n=ansible | changed: [172.31.45.155]
+2024-11-07 17:04:16,452 p=9569 u=ec2-user n=ansible | TASK [create group] **********************************************************************************************************************************
+2024-11-07 17:04:17,123 p=9569 u=ec2-user n=ansible | ok: [172.31.21.47]
+2024-11-07 17:04:17,275 p=9569 u=ec2-user n=ansible | changed: [172.31.45.155]
+2024-11-07 17:04:17,291 p=9569 u=ec2-user n=ansible | TASK [create index file] *****************************************************************************************************************************
+2024-11-07 17:04:17,936 p=9569 u=ec2-user n=ansible | changed: [172.31.21.47]
+2024-11-07 17:04:17,983 p=9569 u=ec2-user n=ansible | fatal: [172.31.45.155]: FAILED! => {"changed": false, "msg": "Error, could not touch target: [Errno 2] No such file or directory: b'/var/www/html/index.html'", "path": "/var/www/html/index.html"}
+2024-11-07 17:04:17,993 p=9569 u=ec2-user n=ansible | TASK [Create directory] ******************************************************************************************************************************
+2024-11-07 17:04:18,495 p=9569 u=ec2-user n=ansible | fatal: [172.31.21.47]: FAILED! => {"changed": true, "cmd": ["mkdir", "/tmp/os"], "delta": "0:00:00.003035", "end": "2024-11-07 17:04:18.437058", "msg": "non-zero return code", "rc": 1, "start": "2024-11-07 17:04:18.434023", "stderr": "mkdir: cannot create directory ‘/tmp/os’: File exists", "stderr_lines": ["mkdir: cannot create directory ‘/tmp/os’: File exists"], "stdout": "", "stdout_lines": []}
+2024-11-07 17:04:18,498 p=9569 u=ec2-user n=ansible | PLAY RECAP *******************************************************************************************************************************************
+2024-11-07 17:04:18,498 p=9569 u=ec2-user n=ansible | 172.31.21.47               : ok=5    changed=2    unreachable=0    failed=1    skipped=1    rescued=0    ignored=0   
+2024-11-07 17:04:18,498 p=9569 u=ec2-user n=ansible | 172.31.45.155              : ok=4    changed=2    unreachable=0    failed=1    skipped=1    rescued=0    ignored=0   
+2024-11-07 17:13:01,093 p=9917 u=ec2-user n=ansible | PLAY [all] *******************************************************************************************************************************************
+2024-11-07 17:13:01,115 p=9917 u=ec2-user n=ansible | TASK [Gathering Facts] *******************************************************************************************************************************
+2024-11-07 17:13:03,564 p=9917 u=ec2-user n=ansible | ok: [172.31.21.47]
+2024-11-07 17:13:03,931 p=9917 u=ec2-user n=ansible | ok: [172.31.45.155]
+2024-11-07 17:13:03,961 p=9917 u=ec2-user n=ansible | TASK [Install nginx] *********************************************************************************************************************************
+2024-11-07 17:13:03,988 p=9917 u=ec2-user n=ansible | skipping: [172.31.45.155]
+2024-11-07 17:13:06,325 p=9917 u=ec2-user n=ansible | ok: [172.31.21.47]
+2024-11-07 17:13:06,339 p=9917 u=ec2-user n=ansible | TASK [Install nginx on redhat family] ****************************************************************************************************************
+2024-11-07 17:13:06,393 p=9917 u=ec2-user n=ansible | skipping: [172.31.21.47]
+2024-11-07 17:13:07,848 p=9917 u=ec2-user n=ansible | ok: [172.31.45.155]
+2024-11-07 17:13:07,856 p=9917 u=ec2-user n=ansible | TASK [Create user serge] *****************************************************************************************************************************
+2024-11-07 17:13:08,519 p=9917 u=ec2-user n=ansible | ok: [172.31.21.47]
+2024-11-07 17:13:08,528 p=9917 u=ec2-user n=ansible | ok: [172.31.45.155]
+2024-11-07 17:13:08,537 p=9917 u=ec2-user n=ansible | TASK [create group] **********************************************************************************************************************************
+2024-11-07 17:13:09,098 p=9917 u=ec2-user n=ansible | ok: [172.31.21.47]
+2024-11-07 17:13:09,271 p=9917 u=ec2-user n=ansible | ok: [172.31.45.155]
+2024-11-07 17:13:09,286 p=9917 u=ec2-user n=ansible | TASK [create index file] *****************************************************************************************************************************
+2024-11-07 17:13:09,849 p=9917 u=ec2-user n=ansible | changed: [172.31.21.47]
+2024-11-07 17:13:09,948 p=9917 u=ec2-user n=ansible | fatal: [172.31.45.155]: FAILED! => {"changed": false, "msg": "Error, could not touch target: [Errno 2] No such file or directory: b'/var/www/html/index.html'", "path": "/var/www/html/index.html"}
+2024-11-07 17:13:09,958 p=9917 u=ec2-user n=ansible | TASK [Create directory] ******************************************************************************************************************************
+2024-11-07 17:13:11,597 p=9917 u=ec2-user n=ansible | fatal: [172.31.21.47]: FAILED! => {"changed": true, "cmd": ["rm", ".rf", "/tmp/os"], "delta": "0:00:01.004281", "end": "2024-11-07 17:13:11.530644", "msg": "non-zero return code", "rc": 1, "start": "2024-11-07 17:13:10.526363", "stderr": "rm: cannot remove '.rf': No such file or directory\nrm: cannot remove '/tmp/os': Is a directory", "stderr_lines": ["rm: cannot remove '.rf': No such file or directory", "rm: cannot remove '/tmp/os': Is a directory"], "stdout": "", "stdout_lines": []}
+2024-11-07 17:13:11,600 p=9917 u=ec2-user n=ansible | PLAY RECAP *******************************************************************************************************************************************
+2024-11-07 17:13:11,601 p=9917 u=ec2-user n=ansible | 172.31.21.47               : ok=5    changed=1    unreachable=0    failed=1    skipped=1    rescued=0    ignored=0   
+2024-11-07 17:13:11,602 p=9917 u=ec2-user n=ansible | 172.31.45.155              : ok=4    changed=0    unreachable=0    failed=1    skipped=1    rescued=0    ignored=0   
+2024-11-07 17:14:23,296 p=10208 u=ec2-user n=ansible | PLAY [all] *******************************************************************************************************************************************
+2024-11-07 17:14:23,309 p=10208 u=ec2-user n=ansible | TASK [Gathering Facts] *******************************************************************************************************************************
+2024-11-07 17:14:25,095 p=10208 u=ec2-user n=ansible | ok: [172.31.45.155]
+2024-11-07 17:14:26,040 p=10208 u=ec2-user n=ansible | ok: [172.31.21.47]
+2024-11-07 17:14:26,055 p=10208 u=ec2-user n=ansible | TASK [Install nginx] *********************************************************************************************************************************
+2024-11-07 17:14:26,078 p=10208 u=ec2-user n=ansible | skipping: [172.31.45.155]
+2024-11-07 17:14:28,328 p=10208 u=ec2-user n=ansible | ok: [172.31.21.47]
+2024-11-07 17:14:28,335 p=10208 u=ec2-user n=ansible | TASK [Install nginx on redhat family] ****************************************************************************************************************
+2024-11-07 17:14:28,378 p=10208 u=ec2-user n=ansible | skipping: [172.31.21.47]
+2024-11-07 17:14:29,985 p=10208 u=ec2-user n=ansible | ok: [172.31.45.155]
+2024-11-07 17:14:30,004 p=10208 u=ec2-user n=ansible | TASK [Create user serge] *****************************************************************************************************************************
+2024-11-07 17:14:30,839 p=10208 u=ec2-user n=ansible | ok: [172.31.21.47]
+2024-11-07 17:14:30,906 p=10208 u=ec2-user n=ansible | ok: [172.31.45.155]
+2024-11-07 17:14:30,915 p=10208 u=ec2-user n=ansible | TASK [create group] **********************************************************************************************************************************
+2024-11-07 17:14:31,593 p=10208 u=ec2-user n=ansible | ok: [172.31.21.47]
+2024-11-07 17:14:31,614 p=10208 u=ec2-user n=ansible | ok: [172.31.45.155]
+2024-11-07 17:14:31,622 p=10208 u=ec2-user n=ansible | TASK [create index file] *****************************************************************************************************************************
+2024-11-07 17:14:32,322 p=10208 u=ec2-user n=ansible | changed: [172.31.21.47]
+2024-11-07 17:14:32,340 p=10208 u=ec2-user n=ansible | fatal: [172.31.45.155]: FAILED! => {"changed": false, "msg": "Error, could not touch target: [Errno 2] No such file or directory: b'/var/www/html/index.html'", "path": "/var/www/html/index.html"}
+2024-11-07 17:14:32,351 p=10208 u=ec2-user n=ansible | TASK [Create directory] ******************************************************************************************************************************
+2024-11-07 17:14:32,915 p=10208 u=ec2-user n=ansible | changed: [172.31.21.47]
+2024-11-07 17:14:32,936 p=10208 u=ec2-user n=ansible | PLAY RECAP *******************************************************************************************************************************************
+2024-11-07 17:14:32,936 p=10208 u=ec2-user n=ansible | 172.31.21.47               : ok=6    changed=2    unreachable=0    failed=0    skipped=1    rescued=0    ignored=0   
+2024-11-07 17:14:32,937 p=10208 u=ec2-user n=ansible | 172.31.45.155              : ok=4    changed=0    unreachable=0    failed=1    skipped=1    rescued=0    ignored=0   
+2024-11-07 17:15:47,896 p=10508 u=ec2-user n=ansible | PLAY [all] *******************************************************************************************************************************************
+2024-11-07 17:15:47,911 p=10508 u=ec2-user n=ansible | TASK [Gathering Facts] *******************************************************************************************************************************
+2024-11-07 17:15:49,689 p=10508 u=ec2-user n=ansible | ok: [172.31.21.47]
+2024-11-07 17:15:49,886 p=10508 u=ec2-user n=ansible | ok: [172.31.45.155]
+2024-11-07 17:15:49,900 p=10508 u=ec2-user n=ansible | TASK [Install nginx] *********************************************************************************************************************************
+2024-11-07 17:15:49,930 p=10508 u=ec2-user n=ansible | skipping: [172.31.45.155]
+2024-11-07 17:15:55,369 p=10508 u=ec2-user n=ansible | changed: [172.31.21.47]
+2024-11-07 17:15:55,384 p=10508 u=ec2-user n=ansible | TASK [Install nginx on redhat family] ****************************************************************************************************************
+2024-11-07 17:15:55,425 p=10508 u=ec2-user n=ansible | skipping: [172.31.21.47]
+2024-11-07 17:15:57,557 p=10508 u=ec2-user n=ansible | fatal: [172.31.45.155]: FAILED! => {"changed": false, "msg": "No package matching 'nginx' found available, installed or updated", "rc": 126, "results": ["No package matching 'nginx' found available, installed or updated"]}
+2024-11-07 17:15:57,577 p=10508 u=ec2-user n=ansible | TASK [Create user serge] *****************************************************************************************************************************
+2024-11-07 17:15:58,331 p=10508 u=ec2-user n=ansible | ok: [172.31.21.47]
+2024-11-07 17:15:58,342 p=10508 u=ec2-user n=ansible | TASK [create group] **********************************************************************************************************************************
+2024-11-07 17:15:58,931 p=10508 u=ec2-user n=ansible | ok: [172.31.21.47]
+2024-11-07 17:15:58,943 p=10508 u=ec2-user n=ansible | TASK [create index file] *****************************************************************************************************************************
+2024-11-07 17:15:59,617 p=10508 u=ec2-user n=ansible | changed: [172.31.21.47]
+2024-11-07 17:15:59,628 p=10508 u=ec2-user n=ansible | TASK [Create directory] ******************************************************************************************************************************
+2024-11-07 17:16:00,446 p=10508 u=ec2-user n=ansible | changed: [172.31.21.47]
+2024-11-07 17:16:00,491 p=10508 u=ec2-user n=ansible | PLAY RECAP *******************************************************************************************************************************************
+2024-11-07 17:16:00,491 p=10508 u=ec2-user n=ansible | 172.31.21.47               : ok=6    changed=3    unreachable=0    failed=0    skipped=1    rescued=0    ignored=0   
+2024-11-07 17:16:00,491 p=10508 u=ec2-user n=ansible | 172.31.45.155              : ok=1    changed=0    unreachable=0    failed=1    skipped=1    rescued=0    ignored=0   
+2024-11-07 17:38:48,889 p=12000 u=ec2-user n=ansible | PLAY [all] *******************************************************************************************************************************************
+2024-11-07 17:38:48,899 p=12000 u=ec2-user n=ansible | TASK [Gathering Facts] *******************************************************************************************************************************
+2024-11-07 17:38:50,843 p=12000 u=ec2-user n=ansible | ok: [172.31.21.47]
+2024-11-07 17:38:50,914 p=12000 u=ec2-user n=ansible | ok: [172.31.45.155]
+2024-11-07 17:38:50,927 p=12000 u=ec2-user n=ansible | TASK [Install nginx] *********************************************************************************************************************************
+2024-11-07 17:38:50,950 p=12000 u=ec2-user n=ansible | skipping: [172.31.45.155]
+2024-11-07 17:38:53,604 p=12000 u=ec2-user n=ansible | ok: [172.31.21.47]
+2024-11-07 17:38:53,623 p=12000 u=ec2-user n=ansible | TASK [Install nginx on redhat family] ****************************************************************************************************************
+2024-11-07 17:38:53,672 p=12000 u=ec2-user n=ansible | skipping: [172.31.21.47]
+2024-11-07 17:38:55,665 p=12000 u=ec2-user n=ansible | fatal: [172.31.45.155]: FAILED! => {"changed": false, "msg": "No package matching 'nginx' found available, installed or updated", "rc": 126, "results": ["No package matching 'nginx' found available, installed or updated"]}
+2024-11-07 17:38:55,676 p=12000 u=ec2-user n=ansible | TASK [Create user serge] *****************************************************************************************************************************
+2024-11-07 17:38:56,312 p=12000 u=ec2-user n=ansible | ok: [172.31.21.47]
+2024-11-07 17:38:56,325 p=12000 u=ec2-user n=ansible | TASK [create group] **********************************************************************************************************************************
+2024-11-07 17:38:56,988 p=12000 u=ec2-user n=ansible | ok: [172.31.21.47]
+2024-11-07 17:38:57,003 p=12000 u=ec2-user n=ansible | TASK [create index file] *****************************************************************************************************************************
+2024-11-07 17:38:57,564 p=12000 u=ec2-user n=ansible | changed: [172.31.21.47]
+2024-11-07 17:38:57,578 p=12000 u=ec2-user n=ansible | TASK [Create directory] ******************************************************************************************************************************
+2024-11-07 17:38:58,076 p=12000 u=ec2-user n=ansible | fatal: [172.31.21.47]: FAILED! => {"changed": true, "cmd": ["mkdir", "/tmp/os"], "delta": "0:00:00.003263", "end": "2024-11-07 17:38:58.029226", "msg": "non-zero return code", "rc": 1, "start": "2024-11-07 17:38:58.025963", "stderr": "mkdir: cannot create directory ‘/tmp/os’: File exists", "stderr_lines": ["mkdir: cannot create directory ‘/tmp/os’: File exists"], "stdout": "", "stdout_lines": []}
+2024-11-07 17:38:58,080 p=12000 u=ec2-user n=ansible | PLAY RECAP *******************************************************************************************************************************************
+2024-11-07 17:38:58,080 p=12000 u=ec2-user n=ansible | 172.31.21.47               : ok=5    changed=1    unreachable=0    failed=1    skipped=1    rescued=0    ignored=0   
+2024-11-07 17:38:58,081 p=12000 u=ec2-user n=ansible | 172.31.45.155              : ok=1    changed=0    unreachable=0    failed=1    skipped=1    rescued=0    ignored=0   
+2024-11-07 17:40:07,891 p=12274 u=ec2-user n=ansible | PLAY [all] *******************************************************************************************************************************************
+2024-11-07 17:40:07,902 p=12274 u=ec2-user n=ansible | TASK [Gathering Facts] *******************************************************************************************************************************
+2024-11-07 17:40:09,673 p=12274 u=ec2-user n=ansible | ok: [172.31.21.47]
+2024-11-07 17:40:09,823 p=12274 u=ec2-user n=ansible | ok: [172.31.45.155]
+2024-11-07 17:40:09,847 p=12274 u=ec2-user n=ansible | TASK [Install nginx] *********************************************************************************************************************************
+2024-11-07 17:40:09,885 p=12274 u=ec2-user n=ansible | skipping: [172.31.45.155]
+2024-11-07 17:40:12,588 p=12274 u=ec2-user n=ansible | ok: [172.31.21.47]
+2024-11-07 17:40:12,596 p=12274 u=ec2-user n=ansible | TASK [Install nginx on redhat family] ****************************************************************************************************************
+2024-11-07 17:40:12,640 p=12274 u=ec2-user n=ansible | skipping: [172.31.21.47]
+2024-11-07 17:40:14,418 p=12274 u=ec2-user n=ansible | fatal: [172.31.45.155]: FAILED! => {"changed": false, "msg": "No package matching 'nginx' found available, installed or updated", "rc": 126, "results": ["No package matching 'nginx' found available, installed or updated"]}
+2024-11-07 17:40:14,428 p=12274 u=ec2-user n=ansible | TASK [Create user serge] *****************************************************************************************************************************
+2024-11-07 17:40:15,085 p=12274 u=ec2-user n=ansible | ok: [172.31.21.47]
+2024-11-07 17:40:15,093 p=12274 u=ec2-user n=ansible | TASK [create group] **********************************************************************************************************************************
+2024-11-07 17:40:15,643 p=12274 u=ec2-user n=ansible | ok: [172.31.21.47]
+2024-11-07 17:40:15,653 p=12274 u=ec2-user n=ansible | TASK [create index file] *****************************************************************************************************************************
+2024-11-07 17:40:16,185 p=12274 u=ec2-user n=ansible | changed: [172.31.21.47]
+2024-11-07 17:40:16,209 p=12274 u=ec2-user n=ansible | TASK [Create directory] ******************************************************************************************************************************
+2024-11-07 17:40:16,905 p=12274 u=ec2-user n=ansible | fatal: [172.31.21.47]: FAILED! => {"changed": true, "cmd": ["mkdir", "/tmp/os"], "delta": "0:00:00.005288", "end": "2024-11-07 17:40:16.851339", "msg": "non-zero return code", "rc": 1, "start": "2024-11-07 17:40:16.846051", "stderr": "mkdir: cannot create directory ‘/tmp/os’: File exists", "stderr_lines": ["mkdir: cannot create directory ‘/tmp/os’: File exists"], "stdout": "", "stdout_lines": []}
+2024-11-07 17:40:16,911 p=12274 u=ec2-user n=ansible | PLAY RECAP *******************************************************************************************************************************************
+2024-11-07 17:40:16,912 p=12274 u=ec2-user n=ansible | 172.31.21.47               : ok=5    changed=1    unreachable=0    failed=1    skipped=1    rescued=0    ignored=0   
+2024-11-07 17:40:16,912 p=12274 u=ec2-user n=ansible | 172.31.45.155              : ok=1    changed=0    unreachable=0    failed=1    skipped=1    rescued=0    ignored=0   
+2024-11-07 17:42:20,193 p=12568 u=ec2-user n=ansible | PLAY [all] *******************************************************************************************************************************************
+2024-11-07 17:42:20,204 p=12568 u=ec2-user n=ansible | TASK [Gathering Facts] *******************************************************************************************************************************
+2024-11-07 17:42:21,991 p=12568 u=ec2-user n=ansible | ok: [172.31.45.155]
+2024-11-07 17:42:22,005 p=12568 u=ec2-user n=ansible | ok: [172.31.21.47]
+2024-11-07 17:42:22,020 p=12568 u=ec2-user n=ansible | TASK [Install nginx] *********************************************************************************************************************************
+2024-11-07 17:42:22,046 p=12568 u=ec2-user n=ansible | skipping: [172.31.45.155]
+2024-11-07 17:42:24,737 p=12568 u=ec2-user n=ansible | ok: [172.31.21.47]
+2024-11-07 17:42:24,761 p=12568 u=ec2-user n=ansible | TASK [Install nginx on redhat family] ****************************************************************************************************************
+2024-11-07 17:42:24,813 p=12568 u=ec2-user n=ansible | skipping: [172.31.21.47]
+2024-11-07 17:42:26,537 p=12568 u=ec2-user n=ansible | fatal: [172.31.45.155]: FAILED! => {"changed": false, "msg": "No package matching 'nginx' found available, installed or updated", "rc": 126, "results": ["No package matching 'nginx' found available, installed or updated"]}
+2024-11-07 17:42:26,558 p=12568 u=ec2-user n=ansible | TASK [Create user serge] *****************************************************************************************************************************
+2024-11-07 17:42:27,202 p=12568 u=ec2-user n=ansible | ok: [172.31.21.47]
+2024-11-07 17:42:27,213 p=12568 u=ec2-user n=ansible | TASK [create group] **********************************************************************************************************************************
+2024-11-07 17:42:27,779 p=12568 u=ec2-user n=ansible | ok: [172.31.21.47]
+2024-11-07 17:42:27,792 p=12568 u=ec2-user n=ansible | TASK [create index file] *****************************************************************************************************************************
+2024-11-07 17:42:28,500 p=12568 u=ec2-user n=ansible | changed: [172.31.21.47]
+2024-11-07 17:42:28,553 p=12568 u=ec2-user n=ansible | TASK [Display OS family] *****************************************************************************************************************************
+2024-11-07 17:42:28,574 p=12568 u=ec2-user n=ansible | ok: [172.31.21.47] => {
+    "msg": "OS Family: Debian"
+}
+2024-11-07 17:42:28,585 p=12568 u=ec2-user n=ansible | TASK [Create directory] ******************************************************************************************************************************
+2024-11-07 17:42:29,174 p=12568 u=ec2-user n=ansible | fatal: [172.31.21.47]: FAILED! => {"changed": true, "cmd": ["mkdir", "/tmp/os"], "delta": "0:00:00.003296", "end": "2024-11-07 17:42:29.128412", "msg": "non-zero return code", "rc": 1, "start": "2024-11-07 17:42:29.125116", "stderr": "mkdir: cannot create directory ‘/tmp/os’: File exists", "stderr_lines": ["mkdir: cannot create directory ‘/tmp/os’: File exists"], "stdout": "", "stdout_lines": []}
+2024-11-07 17:42:29,176 p=12568 u=ec2-user n=ansible | PLAY RECAP *******************************************************************************************************************************************
+2024-11-07 17:42:29,177 p=12568 u=ec2-user n=ansible | 172.31.21.47               : ok=6    changed=1    unreachable=0    failed=1    skipped=1    rescued=0    ignored=0   
+2024-11-07 17:42:29,177 p=12568 u=ec2-user n=ansible | 172.31.45.155              : ok=1    changed=0    unreachable=0    failed=1    skipped=1    rescued=0    ignored=0   
+2024-11-07 17:48:48,593 p=13034 u=ec2-user n=ansible | PLAY [all] *******************************************************************************************************************************************
+2024-11-07 17:48:48,611 p=13034 u=ec2-user n=ansible | TASK [Gathering Facts] *******************************************************************************************************************************
+2024-11-07 17:48:50,505 p=13034 u=ec2-user n=ansible | ok: [172.31.21.47]
+2024-11-07 17:48:50,621 p=13034 u=ec2-user n=ansible | ok: [172.31.45.155]
+2024-11-07 17:48:50,634 p=13034 u=ec2-user n=ansible | TASK [Install nginx] *********************************************************************************************************************************
+2024-11-07 17:48:50,661 p=13034 u=ec2-user n=ansible | skipping: [172.31.45.155]
+2024-11-07 17:48:53,316 p=13034 u=ec2-user n=ansible | ok: [172.31.21.47]
+2024-11-07 17:48:53,344 p=13034 u=ec2-user n=ansible | TASK [Display OS family] *****************************************************************************************************************************
+2024-11-07 17:48:53,382 p=13034 u=ec2-user n=ansible | ok: [172.31.45.155] => {
+    "msg": "OS Family: RedHat"
+}
+2024-11-07 17:48:53,400 p=13034 u=ec2-user n=ansible | ok: [172.31.21.47] => {
+    "msg": "OS Family: Debian"
+}
+2024-11-07 17:48:53,409 p=13034 u=ec2-user n=ansible | TASK [Install nginx on redhat family] ****************************************************************************************************************
+2024-11-07 17:48:53,455 p=13034 u=ec2-user n=ansible | skipping: [172.31.21.47]
+2024-11-07 17:48:55,141 p=13034 u=ec2-user n=ansible | fatal: [172.31.45.155]: FAILED! => {"changed": false, "msg": "No package matching 'nginx' found available, installed or updated", "rc": 126, "results": ["No package matching 'nginx' found available, installed or updated"]}
+2024-11-07 17:48:55,152 p=13034 u=ec2-user n=ansible | TASK [Create user serge] *****************************************************************************************************************************
+2024-11-07 17:48:55,766 p=13034 u=ec2-user n=ansible | ok: [172.31.21.47]
+2024-11-07 17:48:55,776 p=13034 u=ec2-user n=ansible | TASK [create group] **********************************************************************************************************************************
+2024-11-07 17:48:56,299 p=13034 u=ec2-user n=ansible | ok: [172.31.21.47]
+2024-11-07 17:48:56,308 p=13034 u=ec2-user n=ansible | TASK [create index file] *****************************************************************************************************************************
+2024-11-07 17:48:56,828 p=13034 u=ec2-user n=ansible | changed: [172.31.21.47]
+2024-11-07 17:48:56,838 p=13034 u=ec2-user n=ansible | TASK [Display OS family] *****************************************************************************************************************************
+2024-11-07 17:48:56,856 p=13034 u=ec2-user n=ansible | ok: [172.31.21.47] => {
+    "msg": "OS Family: Debian"
+}
+2024-11-07 17:48:56,865 p=13034 u=ec2-user n=ansible | TASK [Create directory] ******************************************************************************************************************************
+2024-11-07 17:48:57,391 p=13034 u=ec2-user n=ansible | fatal: [172.31.21.47]: FAILED! => {"changed": true, "cmd": ["mkdir", "/tmp/os"], "delta": "0:00:00.003055", "end": "2024-11-07 17:48:57.349163", "msg": "non-zero return code", "rc": 1, "start": "2024-11-07 17:48:57.346108", "stderr": "mkdir: cannot create directory ‘/tmp/os’: File exists", "stderr_lines": ["mkdir: cannot create directory ‘/tmp/os’: File exists"], "stdout": "", "stdout_lines": []}
+2024-11-07 17:48:57,392 p=13034 u=ec2-user n=ansible | PLAY RECAP *******************************************************************************************************************************************
+2024-11-07 17:48:57,392 p=13034 u=ec2-user n=ansible | 172.31.21.47               : ok=7    changed=1    unreachable=0    failed=1    skipped=1    rescued=0    ignored=0   
+2024-11-07 17:48:57,393 p=13034 u=ec2-user n=ansible | 172.31.45.155              : ok=2    changed=0    unreachable=0    failed=1    skipped=1    rescued=0    ignored=0   
+2024-11-07 18:07:40,862 p=14162 u=ec2-user n=ansible | PLAY [all] *******************************************************************************************************************************************
+2024-11-07 18:07:40,873 p=14162 u=ec2-user n=ansible | TASK [Gathering Facts] *******************************************************************************************************************************
+2024-11-07 18:07:42,624 p=14162 u=ec2-user n=ansible | ok: [172.31.21.47]
+2024-11-07 18:07:42,708 p=14162 u=ec2-user n=ansible | ok: [172.31.45.155]
+2024-11-07 18:07:42,723 p=14162 u=ec2-user n=ansible | TASK [Install nginx] *********************************************************************************************************************************
+2024-11-07 18:07:42,744 p=14162 u=ec2-user n=ansible | skipping: [172.31.45.155]
+2024-11-07 18:07:45,357 p=14162 u=ec2-user n=ansible | ok: [172.31.21.47]
+2024-11-07 18:07:45,366 p=14162 u=ec2-user n=ansible | TASK [Display OS family] *****************************************************************************************************************************
+2024-11-07 18:07:45,392 p=14162 u=ec2-user n=ansible | ok: [172.31.45.155] => {
+    "msg": "OS Family: RedHat"
+}
+2024-11-07 18:07:45,407 p=14162 u=ec2-user n=ansible | ok: [172.31.21.47] => {
+    "msg": "OS Family: Debian"
+}
+2024-11-07 18:07:45,417 p=14162 u=ec2-user n=ansible | TASK [Install nginx on redhat family] ****************************************************************************************************************
+2024-11-07 18:07:45,461 p=14162 u=ec2-user n=ansible | skipping: [172.31.21.47]
+2024-11-07 18:07:58,350 p=14162 u=ec2-user n=ansible | changed: [172.31.45.155]
+2024-11-07 18:07:58,358 p=14162 u=ec2-user n=ansible | TASK [Create user serge] *****************************************************************************************************************************
+2024-11-07 18:07:59,008 p=14162 u=ec2-user n=ansible | ok: [172.31.21.47]
+2024-11-07 18:07:59,276 p=14162 u=ec2-user n=ansible | ok: [172.31.45.155]
+2024-11-07 18:07:59,285 p=14162 u=ec2-user n=ansible | TASK [create group] **********************************************************************************************************************************
+2024-11-07 18:07:59,914 p=14162 u=ec2-user n=ansible | ok: [172.31.21.47]
+2024-11-07 18:08:00,308 p=14162 u=ec2-user n=ansible | ok: [172.31.45.155]
+2024-11-07 18:08:00,346 p=14162 u=ec2-user n=ansible | TASK [create index file] *****************************************************************************************************************************
+2024-11-07 18:08:01,042 p=14162 u=ec2-user n=ansible | changed: [172.31.21.47]
+2024-11-07 18:08:01,285 p=14162 u=ec2-user n=ansible | fatal: [172.31.45.155]: FAILED! => {"changed": false, "msg": "Error, could not touch target: [Errno 2] No such file or directory: b'/var/www/html/index.html'", "path": "/var/www/html/index.html"}
+2024-11-07 18:08:01,304 p=14162 u=ec2-user n=ansible | TASK [Display OS family] *****************************************************************************************************************************
+2024-11-07 18:08:01,338 p=14162 u=ec2-user n=ansible | ok: [172.31.21.47] => {
+    "msg": "OS Family: Debian"
+}
+2024-11-07 18:08:01,353 p=14162 u=ec2-user n=ansible | TASK [Create directory] ******************************************************************************************************************************
+2024-11-07 18:08:03,059 p=14162 u=ec2-user n=ansible | fatal: [172.31.21.47]: FAILED! => {"changed": true, "cmd": ["mkdir", "/tmp/os"], "delta": "0:00:01.004249", "end": "2024-11-07 18:08:02.999788", "msg": "non-zero return code", "rc": 1, "start": "2024-11-07 18:08:01.995539", "stderr": "mkdir: cannot create directory ‘/tmp/os’: File exists", "stderr_lines": ["mkdir: cannot create directory ‘/tmp/os’: File exists"], "stdout": "", "stdout_lines": []}
+2024-11-07 18:08:03,060 p=14162 u=ec2-user n=ansible | PLAY RECAP *******************************************************************************************************************************************
+2024-11-07 18:08:03,061 p=14162 u=ec2-user n=ansible | 172.31.21.47               : ok=7    changed=1    unreachable=0    failed=1    skipped=1    rescued=0    ignored=0   
+2024-11-07 18:08:03,061 p=14162 u=ec2-user n=ansible | 172.31.45.155              : ok=5    changed=1    unreachable=0    failed=1    skipped=1    rescued=0    ignored=0   
+2024-11-07 18:24:15,228 p=15441 u=ec2-user n=ansible | PLAY [all] *******************************************************************************************************************************************
+2024-11-07 18:24:15,264 p=15441 u=ec2-user n=ansible | TASK [Gathering Facts] *******************************************************************************************************************************
+2024-11-07 18:24:16,927 p=15441 u=ec2-user n=ansible | ok: [172.31.21.47]
+2024-11-07 18:24:17,306 p=15441 u=ec2-user n=ansible | ok: [172.31.45.155]
+2024-11-07 18:24:17,328 p=15441 u=ec2-user n=ansible | TASK [Install nginx] *********************************************************************************************************************************
+2024-11-07 18:24:17,359 p=15441 u=ec2-user n=ansible | skipping: [172.31.45.155]
+2024-11-07 18:24:19,960 p=15441 u=ec2-user n=ansible | ok: [172.31.21.47]
+2024-11-07 18:24:19,967 p=15441 u=ec2-user n=ansible | TASK [Display OS family] *****************************************************************************************************************************
+2024-11-07 18:24:19,988 p=15441 u=ec2-user n=ansible | ok: [172.31.45.155] => {
+    "msg": "OS Family: RedHat"
+}
+2024-11-07 18:24:20,001 p=15441 u=ec2-user n=ansible | ok: [172.31.21.47] => {
+    "msg": "OS Family: Debian"
+}
+2024-11-07 18:24:20,008 p=15441 u=ec2-user n=ansible | TASK [Install nginx on redhat family] ****************************************************************************************************************
+2024-11-07 18:24:20,044 p=15441 u=ec2-user n=ansible | skipping: [172.31.21.47]
+2024-11-07 18:24:21,846 p=15441 u=ec2-user n=ansible | ok: [172.31.45.155]
+2024-11-07 18:24:21,859 p=15441 u=ec2-user n=ansible | TASK [Create user serge] *****************************************************************************************************************************
+2024-11-07 18:24:22,628 p=15441 u=ec2-user n=ansible | ok: [172.31.21.47]
+2024-11-07 18:24:22,654 p=15441 u=ec2-user n=ansible | ok: [172.31.45.155]
+2024-11-07 18:24:22,663 p=15441 u=ec2-user n=ansible | TASK [create group] **********************************************************************************************************************************
+2024-11-07 18:24:23,408 p=15441 u=ec2-user n=ansible | ok: [172.31.21.47]
+2024-11-07 18:24:23,429 p=15441 u=ec2-user n=ansible | ok: [172.31.45.155]
+2024-11-07 18:24:23,440 p=15441 u=ec2-user n=ansible | TASK [create index file] *****************************************************************************************************************************
+2024-11-07 18:24:24,195 p=15441 u=ec2-user n=ansible | changed: [172.31.21.47]
+2024-11-07 18:24:24,246 p=15441 u=ec2-user n=ansible | fatal: [172.31.45.155]: FAILED! => {"changed": false, "msg": "Error, could not touch target: [Errno 2] No such file or directory: b'/var/www/html/index.html'", "path": "/var/www/html/index.html"}
+2024-11-07 18:24:24,268 p=15441 u=ec2-user n=ansible | TASK [Display OS family] *****************************************************************************************************************************
+2024-11-07 18:24:24,299 p=15441 u=ec2-user n=ansible | ok: [172.31.21.47] => {
+    "msg": "OS Family: Debian"
+}
+2024-11-07 18:24:24,316 p=15441 u=ec2-user n=ansible | TASK [Create directory] ******************************************************************************************************************************
+2024-11-07 18:24:24,988 p=15441 u=ec2-user n=ansible | fatal: [172.31.21.47]: FAILED! => {"changed": true, "cmd": ["mkdir", "/tmp/os"], "delta": "0:00:00.003346", "end": "2024-11-07 18:24:24.933219", "msg": "non-zero return code", "rc": 1, "start": "2024-11-07 18:24:24.929873", "stderr": "mkdir: cannot create directory ‘/tmp/os’: File exists", "stderr_lines": ["mkdir: cannot create directory ‘/tmp/os’: File exists"], "stdout": "", "stdout_lines": []}
+2024-11-07 18:24:24,992 p=15441 u=ec2-user n=ansible | PLAY RECAP *******************************************************************************************************************************************
+2024-11-07 18:24:24,992 p=15441 u=ec2-user n=ansible | 172.31.21.47               : ok=7    changed=1    unreachable=0    failed=1    skipped=1    rescued=0    ignored=0   
+2024-11-07 18:24:24,993 p=15441 u=ec2-user n=ansible | 172.31.45.155              : ok=5    changed=0    unreachable=0    failed=1    skipped=1    rescued=0    ignored=0   
