@@ -20,6 +20,7 @@ ansible_user= ubuntu
 ansible_user=Administrator
 ansible_ssh_pass=1aw6jH0E%Oo)x&(u=7Cq0ld76KPI.e4B
 ansible_connection=ssh
+<<<<<<< HEAD
 ansible_shell_type=cmd
 
 #[windows]
@@ -32,3 +33,6 @@ ansible_shell_type=cmd
 # ansible_connection=winrm
 # ansible_winrm_transport=basic
 # ansible_winrm_server_cert_validation=ignore
+=======
+ansible_shell_type=cmd
+>>>>>>> d148ae4 (Add ansible-dev as a regular directory)

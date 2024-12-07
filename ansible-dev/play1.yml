@@ -1,5 +1,9 @@
 ---
+<<<<<<< HEAD
 - hosts: ws
+=======
+- hosts: all
+>>>>>>> d148ae4 (Add ansible-dev as a regular directory)
   become: yes
   gather_facts: yes
   tasks:
