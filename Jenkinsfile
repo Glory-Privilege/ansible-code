@@ -19,7 +19,7 @@ pipeline {
             steps{
                 sshPublisher(publishers: [sshPublisherDesc(configName: 'ansibleServer', \
                 transfers: [sshTransfer(cleanRemote: false, excludes: '', execCommand: \
-                'unzip -o', execTimeout: 120000, flatten: false, makeEmptyDirs: false, \
+                'unzip -o', execTimeout: 1200000, flatten: false, makeEmptyDirs: false, \
                 noDefaultExcludes: false, patternSeparator: '[, ]+', remoteDirectory: \
                 '/home/ec2-user', remoteDirectorySDF: false, removePrefix: '', \
                 sourceFiles: 'ansible-${BUILD_ID}.zip')], usePromotionTimestamp: false, \
